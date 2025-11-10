@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry Smialowicz - Software/Data Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">HS</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Henry Smialowicz</h1>
+                <h2 class="hero-subtitle">Software & Data Engineer</h2>
+                <p class="hero-description">Computer Science student at University of Virginia with expertise in AI/ML, full-stack development, and data engineering. Passionate about building scalable solutions and transforming data into actionable insights.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile_picture.png" alt="Henry Smialowicz" class="profile-picture" id="profile-picture">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Story</h3>
+                    <p>As a Computer Science student at the University of Virginia, I've immersed myself in AI/ML research, full-stack development, and robotics engineering, working on projects that process millions of data points and impact real-world applications. My journey has been driven by a passion for solving complex problems through innovative technology, whether it's building deep learning models for medical diagnosis or leading teams to develop autonomous systems.</p>
+                    
+                    <h3>Goals & Values</h3>
+                    <p>I'm committed to building scalable solutions that transform data into actionable insights, with a focus on end-to-end development and continuous learning. My principles center on collaboration, clear communication, and creating technology that makes a meaningful difference, whether in healthcare, education, or autonomous systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Relevant Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>AI/ML Researcher</h3>
+                        <h4>University of Virginia Rice Labs</h4>
+                        <span class="timeline-date">Fall 2025</span>
+                        <p>Built a large-scale benchmark processing >1M sports time-series data points to assess and improve large language models' predictive accuracy on numerical sequence forecasting tasks. Applied knowledge distillation and reinforcement learning techniques to ensemble models, increasing predictive accuracy by 10% on held-out time-series validation sets.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Tech Lead</h3>
+                        <h4>Biomimicry and Underwater Robotics Submersible Team (BURST) | UVA</h4>
+                        <span class="timeline-date">Fall 2025</span>
+                        <p>Tech Lead for a 20+ member team building ROS-based autonomy software for underwater submersible competitions; oversaw sprints, code reviews, and delivered a navigation stack integrated with computer vision. Optimized detection and navigation pipeline, reduced navigation error rate by 30%, and increased mission success rate in competition scenarios.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>Data Structures and Algorithms, University of Virginia</h4>
+                        <span class="timeline-date">Fall 2025</span>
+                        <p>Ran weekly labs and office hours for 200+ students; created 10+ lab exercises and clarified recursion/concurrency concepts that improved average lab scores by 28%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Breast Cancer Classification with Deep Learning</h3>
+                        <p>Built and validated a CNN in Keras to classify 277K histopathology image patches of breast tissue with 85% accuracy, constructing and analyzing a confusion matrix for performance evaluation. Engineered a large-scale IDC image dataset by preprocessing and programmatically splitting 277K 50×50 patches into 80/10/10 training, validation, and testing subsets using Python.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/HenrySmialowicz/breast-cancer-classification-deep-learning" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>C4K Education Web Application</h3>
+                        <p>Collaborated as a freelance developer closely with a team of 5 to develop and launch a full-stack published web application utilizing HTML, JavaScript, CSS, React, and Airtable API integration. Reconciled industry design constraints while providing a full engineering design and prototyping report. Optimized software flow to account for 100s of users being C4K education students with sleek UI and data cleaning.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Airtable API</span>
+                            <span class="tech-tag">Full-Stack</span>
+                        </div>
+                        <div class="project-links">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">SciKit-Learn</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Visual Studio Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">ROS</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Competencies</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Agile Development</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">End-to-End Development</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Data Engineering</span>
+                        <span class="skill-tag">Full-Stack Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>B.S. Computer Science Major and Systems Engineering Minor</h3>
+                    <h4>University of Virginia, School of Engineering and Applied Science</h4>
+                    <span class="education-date">Fall 2024 - Present</span>
+                    <p><strong>GPA:</strong> 3.75/4.0<br><br><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Computer Systems and Org., Discrete Math and Theory</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Cloud Practitioner Essentials</h3>
+                    <h4>AWS</h4>
+                    <span class="cert-date">Certified</span>
+                    <div class="cert-preview-container">
+                        <img src="images/aws-certificate.png" alt="AWS Cloud Practitioner Certificate" class="cert-preview" id="aws-cert-preview">
+                        <span class="cert-preview-label">Click to view full certificate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology.</p>
+                <div class="contact-info">
+                    <p style="margin-bottom: 2rem; color: var(--text-secondary);">
+                        <i class="fas fa-map-marker-alt" style="margin-right: 0.5rem; color: var(--primary-color);"></i>
+                        Arlington, VA
+                        <span style="margin: 0 1rem;">|</span>
+                        <i class="fas fa-phone" style="margin-right: 0.5rem; color: var(--primary-color);"></i>
+                        703-307-2897
+                    </p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:henry.smialowicz@gmail.com" class="contact-item" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span class="contact-label">henry.smialowicz@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/henry-smialowicz-8a17b2309/" class="contact-item" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <span class="contact-label">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/HenrySmialowicz" class="contact-item" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span class="contact-label">GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Henry Smialowicz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="cert-modal">
+        <span class="cert-modal-close">&times;</span>
+        <img class="cert-modal-content" id="cert-modal-img" src="" alt="Certificate">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
